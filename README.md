@@ -8,7 +8,7 @@ python main.py -e 10 --stepsize 6 -l DFL -a PPW --lr 1e-4 --gpu 3 -f StFPN -s 02
 
 ## CTFN-KD
 step 1: prepare the dataset.  
-step 2: prepare the Teacher Network(EDTER) and generate the label.  
+step 2: prepare the Teacher Network(EDTER)(https://github.com/MengyangPu/EDTER) and generate the label.  
 step 3: directly run the follwing code.  
 ```
 # train CTFN-KD
