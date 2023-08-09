@@ -6,13 +6,13 @@
 python main.py -e 10 --stepsize 6 -l DFL -a PPW --lr 1e-4 --gpu 3 -f StFPN -s 0213-bsds-CTFN -d BSDS -n "train CTFN"
 ```
 
-## CTFN-KD
+## KDED
 step 1: prepare the dataset.  
 step 2: prepare the Teacher Network(EDTER)(https://github.com/MengyangPu/EDTER) and generate the label.  
 step 3: directly run the follwing code.  
 ```
-# train CTFN-KD
-python main.py -e 20 --stepsize 16 -l SBL -a PPW --lr 1e-4 --gpu 3 -f StFPN -s 1106-bsds-KDCTFN -d BSDS -n "train CTFN-KD"
+# train KDED
+python main.py -e 20 --stepsize 16 -l SBL -a PPW --lr 1e-4 --gpu 3 -f StFPN -s 1106-bsds-KDED -d BSDS -n "train KDED"
 ```
 
 ## Acknowledgment
