@@ -1,4 +1,4 @@
-# CTFN and CTFN-KD
+# CTFN and KDED
 ![image](CTFN.png)
 ## CTFN
 ```
