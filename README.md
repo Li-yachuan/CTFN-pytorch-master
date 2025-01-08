@@ -14,6 +14,30 @@ step 3: directly run the follwing code.
 # train KDED
 python main.py -e 20 --stepsize 16 -l SBL -a PPW --lr 1e-4 --gpu 3 -f StFPN -s 1106-bsds-KDED -d BSDS -n "train KDED"
 ```
+## Citation
+If you use this code in your research, please cite:
+```
+@article{li2025compact,
+  title={Compact twice fusion network for edge detection},
+  author={Li, Z. and Li, Y. and Soria, X. and others},
+  journal={Multimedia Systems},
+  volume={31},
+  number={49},
+  year={2025},
+  publisher={Springer},
+  doi={10.1007/s00530-024-01632-1}
+}
+
+@inproceedings{li2023kded,
+  title={KDED: A Knowledge Distillation Based Edge Detector},
+  author={Li, Yachuan and Soria P, Xavier and Bai, Yun and Xiao, Qian and Yang, Chaozhi and Li, Guanlin and Li, Zongmin},
+  booktitle={Pacific Rim International Conference on Artificial Intelligence},
+  pages={129--140},
+  year={2023},
+  organization={Springer}
+}
+```
+
 
 ## Acknowledgment
 
