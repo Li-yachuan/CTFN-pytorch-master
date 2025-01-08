@@ -1,7 +1,7 @@
 # CTFN and KDED
-Official code of "Compact twice fusion network for edge detection" (CTFN) and "KDED: A Knowledge Distillation Based Edge Detector" (KDED)
-[CTFN](https://link.springer.com/article/10.1007/s00530-024-01632-1?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250107&utm_content=10.1007%2Fs00530-024-01632-1)
-[KDED](https://link.springer.com/chapter/10.1007/978-981-99-7025-4_11)
+Official code of "[Compact twice fusion network for edge detection](https://link.springer.com/article/10.1007/s00530-024-01632-1?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250107&utm_content=10.1007%2Fs00530-024-01632-1)" (CTFN) 
+and 
+"[KDED: A Knowledge Distillation Based Edge Detector](https://link.springer.com/chapter/10.1007/978-981-99-7025-4_11)" (KDED)
 ![image](CTFN.png)
 ## CTFN
 ```
